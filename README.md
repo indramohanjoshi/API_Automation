@@ -9,6 +9,9 @@ REST API Automation Test Suite by Postman and newman (the cli companion for post
   b. select environment as Test
   c. provide iteration number.
   d. click on run.
+4. To run newman cli - First Export API_Automation collection and Test environment from postman.
+5. run command :- newman run <collectionName> -e <envName> -r htmlextra
+6. example :- newman run API_Automation -e Test_ENV -r htmlextra
   
 # Few Details :-
 1. Name and Description can be use to define name and details about collections or requests.
