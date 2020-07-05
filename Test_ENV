@@ -1,0 +1,29 @@
+{
+	"id": "471f72e2-29cc-4cc3-993b-1e1de2f093ed",
+	"name": "Test",
+	"values": [
+		{
+			"key": "host",
+			"value": "https://reqres.in",
+			"enabled": true
+		},
+		{
+			"key": "userContext",
+			"value": "/api/users",
+			"enabled": true
+		},
+		{
+			"key": "registerContext",
+			"value": "/api/register",
+			"enabled": true
+		},
+		{
+			"key": "loginContext",
+			"value": "/api/login",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-07-05T19:51:49.971Z",
+	"_postman_exported_using": "Postman/7.27.1"
+}
