@@ -19,17 +19,16 @@ REST API Automation Test Suite by Postman and newman (the cli companion for post
 6. postman supports JavaScripts for scripting and supports "Chai Assertion Library".
 
 # Reference - 
-To download postman :-https://www.postman.com/downloads/
-To download node :- https://nodejs.org/en/download/
-command to install newman package :- npm install -g newman
-command to install newman-reporter-html package :- npm install -g newman-reporter-html
-command to install newman-reporter-htmlextra package :- npm install -g newman-reporter-htmlextra
-command to run newman :- newman run <collectionName.json> -e <Env.json> -d <datafile.json> -r htmlextra
-
-Test request response site :- https://reqres.in/
-Chai Assertion Library :- https://www.chaijs.com/
-Postman Scripts :- https://learning.postman.com/docs/postman/scripts/postman-sandbox-api-reference/
+1. To download postman :-https://www.postman.com/downloads/
+2. To download node :- https://nodejs.org/en/download/
+3. command to install newman package :- npm install -g newman
+4. command to install newman-reporter-html package :- npm install -g newman-reporter-html
+5. command to install newman-reporter-htmlextra package :- npm install -g newman-reporter-htmlextra
+6. command to run newman :- newman run <collectionName.json> -e <Env.json> -d <datafile.json> -r htmlextra
+7. Test request response site :- https://reqres.in/
+8. Chai Assertion Library :- https://www.chaijs.com/
+9. Postman Scripts :- https://learning.postman.com/docs/postman/scripts/postman-sandbox-api-reference/
 
 # Note:- 
-html will give simple report whereas, htmlextra will give more advance report.
-newman cli can be integrated with Jenkins to auto-run API Integration test suite and publish test report via email.
+1. html will give simple report whereas, htmlextra will give more advance report.
+2. newman cli can be integrated with Jenkins to auto-run API Integration test suite and publish test report via email.
